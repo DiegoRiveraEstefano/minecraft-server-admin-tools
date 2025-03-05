@@ -1,0 +1,16 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "analysis.autoImportCompletions": true,
+        "analysis.typeCheckingMode": "basic",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always",
+            "source.fixAll": "always"
+        },
+        "languageServer": "Pylance",
+        "linting.enabled": true,
+        "linting.mypyEnabled": true,
+        "files.eol": "\n"
+    }
+}
